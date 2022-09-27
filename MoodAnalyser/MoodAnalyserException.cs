@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace MoodAnalyserMSTest
 {
-    internal class MoodAnalyserException : Exception
+    public class MoodAnalyserException : Exception
     {
-         
         public enum ExceptionType
         {
             NULL_MESSAGE,
