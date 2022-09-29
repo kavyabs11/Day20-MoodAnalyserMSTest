@@ -7,4 +7,3 @@ if (obj.analyseMood() != null)
     Console.WriteLine($"The user mood is {obj.analyseMood()}");
 else
     Console.WriteLine("The user mood is empty/null");
-
