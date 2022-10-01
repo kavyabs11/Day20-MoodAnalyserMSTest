@@ -24,7 +24,7 @@ namespace MoodAnalyserMSTest
                 {
                     throw new CustomException(CustomException.ExceptionType.NULL_MESSAGE, "Mood should not be null");
                 }
-                if (this.message.Equals(string.Empty))
+                if(this.message.Equals(String.Empty))
                 {
                     throw new CustomException(CustomException.ExceptionType.EMPTY_MESSAGE, "Mood should not be empty");
                 }

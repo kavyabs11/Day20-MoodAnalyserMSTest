@@ -26,17 +26,13 @@ namespace MoodAnalyserMSTest
                     object instance = ctor.Invoke(new object[] { message });
                     return instance;
                 }
-                else
-                {
-                    throw new CustomException(CustomException.ExceptionType.NO_SUCH_METHOD, "Constructor is not found");
-                }
-            }
-            else
-            {
-                throw new CustomException(CustomException.ExceptionType.NO_SUCH_CLASS, "Class not found");
             }
             return null;
         }
+
+        internal static object CreateMoodAnalyser(string v1, string v2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
-
